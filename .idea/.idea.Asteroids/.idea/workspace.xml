@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/MoveRigidbody.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/MoveRigidbody.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerBasicWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerBasicWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
