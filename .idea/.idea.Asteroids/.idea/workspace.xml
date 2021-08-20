@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="" />
+    <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +11,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPools/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A104889-781C-465C-A00C-12D0953583E2/df/8eea4df5/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -35,6 +41,21 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerBasicWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Factories/Abstract/IEnemyFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Asteroid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Factories/Implementation/AsteroidFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ShootingEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyShip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Abstract/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Abstract/ShootingEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/EnemyShipWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Factories/Implementation/EnemyShipFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPools/BulletPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPools/ObjectPoolGeneric.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPools/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPools/ViewCashes.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlTFsCNZJEctv55CreU6UambdM" />
@@ -86,6 +107,7 @@
       <workItem from="1629032087332" duration="7398000" />
       <workItem from="1629278594768" duration="3757000" />
       <workItem from="1629283654655" duration="692000" />
+      <workItem from="1629427611553" duration="10364000" />
     </task>
     <servers />
   </component>
