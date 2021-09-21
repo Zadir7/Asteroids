@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlow/EnemyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlow/EnemyController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IEnemyPrototyper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IEnemyPrototyper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/EnemyPrototyper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/EnemyPrototyper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/ObjectExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/ObjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +43,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Models/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Models/PlayerBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerBasicWeapon.cs" />
@@ -69,6 +66,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/EnemyPrototyper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlow/GameInitializer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlow/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/EventListener.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HitEventListener.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlTFsCNZJEctv55CreU6UambdM" />
@@ -121,7 +124,8 @@
       <workItem from="1629278594768" duration="3757000" />
       <workItem from="1629283654655" duration="692000" />
       <workItem from="1629427611553" duration="10364000" />
-      <workItem from="1630228646514" duration="2184000" />
+      <workItem from="1630228646514" duration="2809000" />
+      <workItem from="1632224564554" duration="1062000" />
     </task>
     <servers />
   </component>
