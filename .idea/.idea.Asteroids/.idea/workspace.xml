@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e0c96e-cf79-4cbe-a5b2-5886579e8f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/DebugExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/DebugExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnableVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnableVisitor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableLogVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableLogVisitor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableVisitor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/AsteroidView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/AsteroidView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/EnemyShipView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/EnemyShipView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroids/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Abstract/IHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerHealth.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +30,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPools/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A104889-781C-465C-A00C-12D0953583E2/f7/8491a651/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A104889-781C-465C-A00C-12D0953583E2/df/8eea4df5/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Updates/IController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Updates/ICleanup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Updates/IInitializable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Updates/ILateUpdatable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Updates/IUpdatable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Updates/IFixedUpdatable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlow/Controllers.cs" />
@@ -47,11 +53,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/PlayerBasicWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Factories/Abstract/IEnemyFactory.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Asteroid.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Factories/Implementation/AsteroidFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ShootingEnemy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyShip.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Abstract/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Abstract/ShootingEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/Implementation/EnemyShipWeapon.cs" />
@@ -72,6 +76,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HitEventListener.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/HealthOnHitEventListener.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Observer/PlayerHealthObserver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyShip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Asteroid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/View/AsteroidModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/View/EnemyShipView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnableVisitor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/View/AsteroidView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/ISpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableLogVisitor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Visitor/SpawnableVisitor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utilities/Extensions/DebugExtensions.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlTFsCNZJEctv55CreU6UambdM" />
@@ -125,7 +139,7 @@
       <workItem from="1629283654655" duration="692000" />
       <workItem from="1629427611553" duration="10364000" />
       <workItem from="1630228646514" duration="2809000" />
-      <workItem from="1632224564554" duration="1062000" />
+      <workItem from="1632224564554" duration="4638000" />
     </task>
     <servers />
   </component>
